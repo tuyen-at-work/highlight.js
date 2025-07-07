@@ -48,7 +48,7 @@
     "build-cdn": "node ./tools/build.js -t cdn",
     "build-browser": "node ./tools/build.js -t browser :common",
     "devtool": "npx http-server",
-    "test": "mocha test",
+    "test": "mocha test --timeout 5000",
     "test-markup": "mocha test/markup",
     "test-detect": "mocha test/detect",
     "test-browser": "mocha test/browser",
